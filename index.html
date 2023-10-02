@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <!--  -->
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <section class="card">
+
+      <div class="top-div">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. <br>No credit card required.</p>
+      </div>
+      <div class="slider-div">
+        <div class="slider-header">
+          <span class="pageviews"><span class="pageviews-number"></span> Pageviews</span>
+          <div class="price-div">
+            <span class="price"></span>
+            <span>/ month</span>
+          </div>
+        </div> 
+        <div class="pricing-slider">
+          <div class="range-slider">
+            <input class="price-slider" type="range"  min="1" max="5"  value="3">
+            <!-- use for steps: min="1" max="5" step="1" -->
+          </div>
+        </div>
+      </div>
+      <div class="billing-selector-container">
+        <span class="monthly-billing">Monthly Billing</span>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round toggle"></span>
+        </label>
+        <span class="yearly-billing">Yearly Billing</span>
+        <span class="discount">25% discount</span>
+      </div>
+      <div class="bottom-div">
+        <div class="benefits-div">
+          <div class="benefit">
+            <img src="/images/icon-check.svg" alt="check icon">
+            <h4>Unlimited websites</h4>
+          </div>
+          <div class="benefit">
+            <img src="/images/icon-check.svg" alt="check icon">
+            <h4>100% data ownership</h4>
+          </div>
+          <div class="benefit">
+            <img src="/images/icon-check.svg" alt="check icon">
+            <h4>Email reports</h4>
+          </div>
+        </div>
+        <button class="start-trial-btn">Start my trial</button>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
