@@ -57,10 +57,6 @@ body {
     background-color: var(--main-background);
 }
 
-main {
-    margin-top: -3rem;
-}
-
 .card {
     background-color: var(--pricing-component-background);
     padding: 2rem;
