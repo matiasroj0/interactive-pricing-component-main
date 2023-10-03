@@ -4,7 +4,7 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 ### Links
 
-- Live Site URL: https://splendid-choux-462a8d.netlify.app/
+- Live Site URL: https://incredible-moonbeam-1e3a89.netlify.app/
 
 ### Screenshot
 
